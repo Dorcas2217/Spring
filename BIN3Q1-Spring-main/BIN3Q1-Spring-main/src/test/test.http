@@ -1,0 +1,34 @@
+### GET ALL
+GET http://localhost:8080/products
+
+### GET ONE BY ID
+GET http://localhost:8080/products/1
+
+### DELETE ONE
+DELETE http://localhost:8080/products/1
+
+### DELETE ALL
+DELETE http://localhost:8080/products
+
+### CREATE ONE
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "id" : 1,
+  "name": "Product 1",
+  "category": "Category 1",
+  "price": 100
+}
+
+### UPDATE ONE
+PUT http://localhost:8080/products/58
+Content-Type: application/json
+
+{
+  "id" : 58,
+  "name": "Product 2",
+  "category": "Category 2",
+  "price": 10000000
+}
+
