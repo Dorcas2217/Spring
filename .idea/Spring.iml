@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/BIN3Q1-Spring-main/src/main/java/be/vinci/ipl/ex1amazing" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Spring1/src/main/java/vinci/be/spring1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring2/src/main/java/be/vinci/ipl/ex1amazing" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
