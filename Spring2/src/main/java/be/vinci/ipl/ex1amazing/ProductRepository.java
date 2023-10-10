@@ -4,6 +4,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ProductRepository extends CrudRepository<Product,Long>{
-
+// génère les requètes par le nom des méthodes
 
 }

@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59998af2-ad53-4921-8477-68634bad5891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vinci/be/spring1/Produit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vinci/be/spring1/Spring1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vinci/be/spring1/controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testProduct.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vinci/be/spring1/controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vinci/be/spring1/controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +25,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="file://$PROJECT_DIR$/src/test/testProduct.http" environment="dev" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2VO4x1WVlPDrIa0K2UCm5zpYDaU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -114,6 +113,8 @@
       <updated>1694694036302</updated>
       <workItem from="1694694037422" duration="4593000" />
       <workItem from="1694747151870" duration="61000" />
+      <workItem from="1696356207062" duration="108000" />
+      <workItem from="1696356552279" duration="297000" />
     </task>
     <servers />
   </component>

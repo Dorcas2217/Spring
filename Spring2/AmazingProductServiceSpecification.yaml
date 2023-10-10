@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: Product Video service
+  title: Catflix Product service
   description: Microservice Handling database
   version: 1.0.0
 servers:
@@ -17,7 +17,7 @@ paths:
         content:
           'application/json':
             schema:
-              $ref: '#/components/schemas/product'
+              $ref: '#/components/schemas/products'
       responses:
         409:
           description: product already exists
@@ -26,7 +26,7 @@ paths:
           content:
             'application/json':
               schema:
-                $ref: '#/components/schemas/Product'
+                $ref: '#/components/schemas/products'
 
     get:
       summary: Read all product
@@ -38,7 +38,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/product'
+                  $ref: '#/components/schemas/products'
 
     delete:
       summary: Delete all products
@@ -47,81 +47,73 @@ paths:
           description: All products are deleted
 
 
-  /videos/{hash}:
+  /products/{id}:
     parameters:
-      - name: hash
+      - name: id
         in: path
-        description: Hash of the product
+        description: id of the product
         required: true
         schema:
-          type: string
-          example: dQw4w9WgXcQ
+          type: Long
+          example: 1
         style: simple
 
     get:
       summary: Read a product
       responses:
         404:
-          description: Video not found
+          description: Product not found
         200:
-          description: Returned video
+          description: Returned product
           content:
             'application/json':
               schema:
-                $ref: '#/components/schemas/video'
+                $ref: '#/components/schemas/products'
 
     put:
-      summary: Update a video
+      summary: Update a product
       requestBody:
-        description: New values of the video
+        description: New values of the product
         content:
           'application/json':
             schema:
-              $ref: '#/components/schemas/video'
+              $ref: '#/components/schemas/products'
       responses:
         400:
-          description: Non matching video hashes
+          description: Non matching Products hashes
         404:
-          description: Video not found
+          description: Product not found
         200:
           description: Updated video, returned old values
           content:
             'application/json':
               schema:
-                $ref: '#/components/schemas/video'
+                $ref: '#/components/schemas/products'
 
     delete:
-      summary: Delete a video
+      summary: Delete a product
       responses:
         404:
-          description: Video not found
+          description: Product not found
         200:
-          description: Deleted video
+          description: Deleted products
 
 components:
   schemas:
-    video:
+    products:
       type: object
       properties:
-        hash:
-          type: string
+        id:
+          type: Long
         name:
           type: string
-        author:
+        category:
           type: string
-        creationYear:
+        price:
           type: integer
-        duration:
-          type: integer
-          description: in seconds
-        url:
-          type: string
       example:
-        hash: dQw4w9WgXcQ
+        id: 1
         name: Cutest kitty ever
-        author: Cat4Life
-        creationYear: 2009
-        duration: 212
-        url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-
+        category: video
+        price: 2009
   

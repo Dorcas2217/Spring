@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class controller {
 
-  private static  final List<Produit> produits = new ArrayList<>();
+  private static  final List<vinci.be.spring1.Produit> produits = new ArrayList<>();
     static {
       produits.add(new Produit(1, "test", "test", 111));
       produits.add(new Produit(2, "test 2 ", "test 3", 222));
