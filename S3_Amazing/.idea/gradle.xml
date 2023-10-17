@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Products" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Products" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ServiceDiscovery" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ServiceDiscovery" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Users" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Users" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/WishList" />
+        <option name="gradleJvm" value="openjdk-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/WishList" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
